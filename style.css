@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    align-items: center;
+  }
+  li {
+    list-style: none;
+  }
+  li > a {
+    text-decoration: none;
+    font: bold 15px verdana;
+    color: red;
+  }
+  .cover {
+    background-image: url(./images/laptop_top.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .cover > h3 {
+    margin: 1rem;
+  }
+  .cover > button {
+    padding: 1.2rem 2rem;
+    border-radius: 20px;
+    outline: none;
+    background-image: linear-gradient(to top, lightblue, white);
+  }
+  .introduction {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .introduction > .intro-text,
+  .introduction > .intro-content {
+    flex: 1 1 23rem;
+  }
+  .introduction > .intro-text > img {
+    width: 100%;
+    height: 100%;
+  }
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tracks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+/* start map ******************************************************** */
+  article{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .map{
+    width: 70%;
+  }
+
+  .map img{
+    width: 100%;
+  }
+
+  .locations h1{
+    font-size: 30px;
+    color:darkred
+  }
+
+  .locations p{
+    color: #555;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .loc{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .loc article{
+    height: 100px;
+    width: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding:10px ;
+    background-color: #eee;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .loc article:first-child{
+    color:darkred
+  }
+
+  .locations input{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+footer{
+    padding: 10px;
+    background-color: #111;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    padding: 10px;
+    font-size: 18px;
+}
+footer img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
